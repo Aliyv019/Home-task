@@ -1,0 +1,151 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: #333333;
+    color: #F4FEFD;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.head h1{
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+}
+.ul{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.ul ul{
+    list-style-type: none;
+    display: flex;
+}
+.ul li{
+    margin-right: 15px;
+}
+body{
+    background-color: #7FB9E7;
+}
+
+.maindiv{
+
+    width: 900px;
+    border-radius: 16px;
+    background-color: #F3F8FC;
+    margin: auto;
+    margin-top: 125px;
+}
+.about-hobbies{
+    display: flex;
+
+}
+.hobbies{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 427.5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow:inset 0px 0px 10px 0px lightgray, 0px 0px 10px 1px lightgray;
+}
+.hobbies h1{
+    padding-left: 15px;
+}
+.hobbies p{
+    margin: 0px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.p{
+    padding-bottom: 15px;
+}
+.about{
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 427.5px;
+    box-shadow:inset 0px 0px 10px 0px lightgray, 0px 0px 10px 1px lightgray;
+}
+.about h1{
+    padding-left: 15px;
+}
+.about p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.projects-contact{
+    display: flex;
+    padding-bottom: 15px;
+}
+.projects{
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 427.5px;
+    box-shadow:inset 0px 0px 10px 0px lightgray, 0px 0px 10px 1px lightgray;
+}
+.projects h1{
+    padding-left: 15px;
+}
+.project1{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.project2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact{
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 427.5px;
+    box-shadow:inset 0px 0px 10px 0px lightgray, 0px 0px 10px 1px lightgray;
+}
+.contact h1{
+    padding-left: 15px;
+}
+.input{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.input button{
+    background-color: #88CEEC;
+    border-radius: 5px;
+    width: 397.5px;
+    border-color: #88CEEC;
+}
+#name{
+    width: 390.07px;
+}
+#Email{
+    width: 390.07px;
+}
+#Message{
+    width: 390.07px;
+}
+input[type=text]:focus{
+    outline: none;
+    outline: 1px solid#17daf4;
+    
+}
+footer{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: #333333;
+    color: #FFFFFF;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: -100px;
+    right: 0px;
+
+}
